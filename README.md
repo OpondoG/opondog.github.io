@@ -2,28 +2,55 @@
 
 # Project Name
 
-> My First Portfolio Project
+> Description the project.
 
 
 ## Built With
 
-- Major languages HTML and CSS.
+- Major languages
+- Frameworks
+- Technologies used
+
+## Live Demo (if available)
+
+[Live Demo Link](https://livedemo.com)
+
+
 ## Getting Started
 
-## Linters and Formatting 
-The linting tool used in the project is stylelint. 
-To validate the code format run the command `` npx stylelint "**/*.{css,scss}"``
-To correct any wrong format run the command `` npx stylelint "**/*.{css,scss}" --fix``
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-## Launching App
-To  run the app locally click on the ``Go Live`` button at the bottom right section of VSCode. 
-This launches the app on the url `http://127.0.0.1:5500/`
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+### Setup
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
+
+
 
 ## Authors
 
-👤 **Gilbert**
-- GitHub: [@githubhandle](https://github.com/OpondoG)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gilbert-okonjo-2081331b9/)
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -34,6 +61,12 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
