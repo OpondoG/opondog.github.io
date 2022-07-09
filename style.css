@@ -66,8 +66,6 @@ header a {
   column-gap: 12px;
 }
 
-/* Cardwork */
-
 .cardWork {
   width: 400px;
   height: 300px;
@@ -205,8 +203,6 @@ span {
   color: #7a869a;
 }
 
-/* About Myself */
-
 .about {
   display: flex;
   flex-direction: column;
@@ -292,82 +288,67 @@ span {
   margin-bottom: 30px;
 }
 
-#vector {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  padding: 8px;
-  width: 12px;
-  height: 6px;
-  right: 26px;
-  top: 9px;
-  left: 6px;
-  border-radius: 8px;
-  margin-left: 260px;
-  margin-top: -40px;
-  color: #acb7c3;
+h2.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
-/* .Language {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 12px;
-        width: 327px;
-        height: 50px;
-        justify-content: space-between;
-        list-style: none;
-        gap: 5px;
-    } */
-
-/* #js {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 12px;
-    border: 1px solid #fff;
-}
-
-#tml {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 12px;
-    border: 1px solid #fff;
-}
-
-#cs {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 12px;
-    border: 1px solid #fff;
-} */
-
-.hr {
-  position: absolute;
-  height: 1px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  color: blue;
-}
-
-.words p {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 12px;
-  width: 327px;
-  height: 320.15px;
-}
-
-.containing {
-  display: flex;
-  gap: 30px;
-}
-
-#nam {
-  list-style: none;
+.other-info-wrap .other-info-list {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.other-info-wrap .other-info-list h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+}
+
+.other-info-wrap .li-flex {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.other-info-details {
+  padding-top: 36px;
+  padding-left: 4px;
+  list-style-type: none;
+  width: 100%;
+}
+
+.view-list-item {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 9px 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  background-color: #f7f7f9;
+}
+
+.view-list-item img.lang-icon {
+  -ms-flex-preferred-size: 48px;
+  flex-basis: 48px;
+  width: 48px;
+  margin-right: 16px;
+}
+
+.view-list-item .lang-name {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
 }
