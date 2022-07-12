@@ -326,3 +326,21 @@ h2.section-title {
     top: 0;
     padding: 10px;
 }
+
+.contact-me {
+    background-image: url('assets/img/Contact.png');
+}
+
+.contact-me h2 {
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-me p {
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
