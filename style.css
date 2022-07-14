@@ -468,7 +468,7 @@ h2.section-title {
 
 }
  .anotherimage {
-   background-image: url("./assets/img/cnt.svg");
+   background-image: url("./assets/img/cnt.svg") right no-repeat;
    background-repeat: no-repeat;
    background-size: contain;
    height: 779px;
