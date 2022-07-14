@@ -379,15 +379,13 @@ span {
 }
 
 .About button:hover:enabled {
-  /* background: #6070ff; */
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
+}
 
-  .About button:active:enabled {
-    background: #2230d2;
-    border-radius: 8px;
-    color: #fff;
-  }
+.About button:active:enabled {
+  border-radius: 8px;
+  color: #fff;
 }
 
 h2.section-title {
@@ -479,20 +477,20 @@ h2.section-title {
   background-size: contain;
   height: 779px;
   width: 375px;
-
 }
- .anotherimage {
-   background-image: url("./assets/img/cnt.svg") right no-repeat;
-   background-repeat: no-repeat;
-   background-size: contain;
-   height: 779px;
-   width: 375px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
 
- }
+.anotherimage {
+  background-image: url("./assets/img/cnt.svg") right no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 779px;
+  width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .contact-me h2 {
   text-align: center;
   margin-left: 20px;
