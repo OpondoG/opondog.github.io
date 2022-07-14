@@ -460,7 +460,7 @@ h2.section-title {
 }
 
 .contact-me {
-  background: url(assets/img/Contact.png);
+  background: url(assets/img/<shapes-img>) no-repeat, (assets/img/Contact.png) no-repeat;
   height: 779px;
   width: 375px;
   display: flex;
