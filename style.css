@@ -230,6 +230,24 @@ li.buttons-type {
   margin-top: 24px;
 }
 
+.projects input:hover:enabled {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.projects input:active:enabled {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.projects input:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+}
+
 .button {
   box-sizing: border-box;
   display: flex;
@@ -340,6 +358,24 @@ span {
   padding: 25px;
 }
 
+.About button:hover:enabled {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.About button:active:enabled {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.About button:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+}
+
 h2.section-title {
   font-style: normal;
   font-weight: 700;
@@ -424,12 +460,9 @@ h2.section-title {
 }
 
 .contact-me {
-  background-image: url('assets/img/Contact.png');
+  background: url(assets/img/Contact.png);
   height: 779px;
   width: 375px;
-}
-
-.contact-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -522,4 +555,22 @@ h2.section-title {
   letter-spacing: 0.03em;
   color: rgb(96, 112, 255);
   align-self: flex-start;
+}
+
+#btn:hover:enabled {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+#btn:active:enabled {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+#btn:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
 }
