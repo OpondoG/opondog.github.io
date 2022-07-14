@@ -474,15 +474,25 @@ h2.section-title {
 }
 
 .contact-me {
-  background: url(assets/img/Contact.png);
+  background: url("./assets/img/Contact.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 779px;
   width: 375px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 
+}
+ .anotherimage {
+   background-image: url("./assets/img/cnt.svg") right no-repeat;
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 779px;
+   width: 375px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+ }
 .contact-me h2 {
   text-align: center;
   margin-left: 20px;
