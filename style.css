@@ -213,6 +213,21 @@ li.buttons-type {
   box-sizing: border-box;
 }
 
+.contact-form input {
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  border: 0.01px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: rgb(23, 43, 77);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
 .projects input {
   padding: 12px;
   width: 120px;
@@ -230,6 +245,11 @@ li.buttons-type {
   margin-top: 24px;
 }
 
+.projects input:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+}
+
 .projects input:hover:enabled {
   background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
@@ -241,11 +261,6 @@ li.buttons-type {
   background: #2230d2;
   border-radius: 8px;
   color: #fff;
-}
-
-.projects input:disabled {
-  background: #e5e5e5;
-  color: #5e6c84;
 }
 
 .button {
@@ -358,22 +373,21 @@ span {
   padding: 25px;
 }
 
-.About button:hover:enabled {
-  background: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  border-radius: 8px;
-  color: #fff;
-}
-
-.About button:active:enabled {
-  background: #2230d2;
-  border-radius: 8px;
-  color: #fff;
-}
-
 .About button:disabled {
   background: #e5e5e5;
   color: #5e6c84;
+}
+
+.About button:hover:enabled {
+  /* background: #6070ff; */
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+
+  .About button:active:enabled {
+    background: #2230d2;
+    border-radius: 8px;
+    color: #fff;
+  }
 }
 
 h2.section-title {
@@ -506,21 +520,6 @@ h2.section-title {
   margin-top: 69px;
 }
 
-.contact-form input {
-  height: 48px;
-  width: 327px;
-  border-radius: 8px;
-  border: 0.01px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  color: rgb(23, 43, 77);
-  margin-bottom: 20px;
-  padding: 15px;
-}
-
 .text-area {
   display: block;
   height: 170px;
@@ -557,6 +556,11 @@ h2.section-title {
   align-self: flex-start;
 }
 
+#btn:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+}
+
 #btn:hover:enabled {
   background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
@@ -568,9 +572,4 @@ h2.section-title {
   background: #2230d2;
   border-radius: 8px;
   color: #fff;
-}
-
-#btn:disabled {
-  background: #e5e5e5;
-  color: #5e6c84;
 }
