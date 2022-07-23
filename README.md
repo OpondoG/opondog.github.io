@@ -1,19 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio project deploy
 
-> Description the project.
+> This Project is aimed to deploy my portfolio with github pages.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+-  Html and CSS.
+- Technologies used Git,Github,VsCode.
 
-## Live Demo (if available)
+## Portfolio Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Click here](https://opondog.github.io/)
 
 
 ## Getting Started
@@ -37,20 +36,10 @@ To get a local copy up and running follow these simple example steps.
 ### Deployment
 
 
+👤 **Author**
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/OpondoG)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gilbert-okonjo-2081331b9/)
 
 ## 🤝 Contributing
 
